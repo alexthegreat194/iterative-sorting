@@ -80,16 +80,16 @@ def insertion_sort(items):
                 break
     return items
 
-sorted_list = [1, 2, 10, 4, 5]
-print(is_sorted(sorted_list))
+# sorted_list = [1, 2, 10, 4, 5]
+# print(is_sorted(sorted_list))
 
-list = [65,	69,	94,	11,	74, 94,	79,	13,	83,	71]
+# list = [65,	69,	94,	11,	74, 94,	79,	13,	83,	71]
 
-listBubble = bubble_sort(list)
-print("Bubble Sort: ", listBubble, is_sorted(listBubble))
+# listBubble = bubble_sort(list)
+# print("Bubble Sort: ", listBubble, is_sorted(listBubble))
 
-listSelection = selection_sort(list)
-print("Selection Sort: ", listBubble, is_sorted(listBubble))
+# listSelection = selection_sort(list)
+# print("Selection Sort: ", listBubble, is_sorted(listBubble))
 
-listInsertion = insertion_sort(list)
-print("Insertion Sort", listInsertion, is_sorted(listInsertion))
+# listInsertion = insertion_sort(list)
+# print("Insertion Sort", listInsertion, is_sorted(listInsertion))
